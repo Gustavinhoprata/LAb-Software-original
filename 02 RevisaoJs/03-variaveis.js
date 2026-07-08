@@ -1,15 +1,14 @@
 // O que é uma variável?
-    /* Área de memória associada a um nome, 
+/* Área de memória associada a um nome, 
     que pode armazenar valores de um determinado tipo */
 
 // Como definir variáveis em js?
 
-let nome = "Jamilton " // variável mutável
-const PI = 3.14 // variável imutável
+let nome = "Jamilton "; // variável mutável
+const PI = 3.14; // variável imutável
 
-console.log(nome)
-console.log(PI)
-
+console.log(nome);
+console.log(PI);
 
 /*
 
@@ -31,9 +30,20 @@ REGRAS PARA CRIAR VARIÁVEIS
     snake_case = snake_case_usa_somente_palavras_minusculas_separadas_por_under_line
 */
 
-let altura = 1.70
-let peso = 70
+let altura = 1.7;
+let peso = 70;
 
-let imc = peso / (altura * altura)
+let imc = peso / (altura * altura);
 
-console.log("IMC de altura: %d e peso: %d é igual a %d ", altura, peso, imc)
+//Para apresentar os dados em console.log temos duas formas:
+
+//Forma 01, padrão linguagem C (não é recomendado em JavaScript):
+console.log("IMC de altura: %d e peso: %d é igual a %d ", altura, peso, imc);
+
+//Forma 02 Template String (recomendado)
+//A string fica entre `` ao invés de "" e as variáveis ficam dentro da notação ${}
+console.log(`IMC de altura: ${altura} e peso: ${peso} é igual a ${imc}`);
+//Podem ser feitas operações de lógica dentro da notação ${}
+console.log(
+  `IMC de altura: ${altura} e peso: ${peso} é igual a ${peso / (altura * altura)}`,
+);
