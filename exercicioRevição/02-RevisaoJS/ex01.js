@@ -4,6 +4,6 @@
 // Tenho (sua idade)
 // Estou aprendendo JavaScript
 
-console.log("Gustavo")
-console.log("Prata")
-console.log("Estou apredendo JavaScript")
+console.log("Gustavo");
+console.log("Prata");
+console.log("Estou apredendo JavaScript");
