@@ -8,3 +8,7 @@
 
 // Mostre no console concatenando as variáveis:
 // O personagem (nomePersonagem) é um (classe) de nível (nivel).
+let nome = "Aduin"
+let classe = "sweetie Fox"
+let nivel = 999
+console.log (`O personagen ${nome} é um ${classe} de nível ${nivel},`);
