@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    background-color: #f4f4f9;
+    background-color: #f9f8f4;
 }
 
 .calculadora {
@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
     border: none;
     border-radius: 5px;
-    background-color: #eef;
+    background-color: rgb(255, 243, 238);
 }
 
 /* O Grid divide o teclado em 4 colunas iguais */
@@ -32,6 +32,8 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+     background-color: #000000;
+   
 }
 
 button {
@@ -40,18 +42,18 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #eee;
+    background-color: #e0dbdb;
 }
 
 button:hover {
-    background-color: #ccc;
+    background-color: #cccccc;
 }
 
 /* Estilos botões */
-.btn-operador { background-color: #ff9800; color: white; }
+.btn-operador { background-color: #ff9800; color: rgba(241, 89, 89, 0.418); }
 .btn-operador:hover { background-color: #e68a00; }
 
-.btn-acao { background-color: #f44336; color: white; }
+.btn-acao { background-color: #f44336; color: rgb(223, 6, 6); }
 .btn-acao:hover { background-color: #d32f2f; }
 
 .btn-igual { background-color: #4CAF50; color: white; height: 100%; }
